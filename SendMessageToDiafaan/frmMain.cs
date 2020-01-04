@@ -95,6 +95,7 @@ namespace SendMessageToDiafaan
                 btnSend.Enabled = true;
             }
         }
+
         private void txtMessage_TextChanged(object sender, EventArgs e)
         {
             lblWordCount.Text = $"تعداد کاراکتر:{txtMessage.Text.Length + 1}";
